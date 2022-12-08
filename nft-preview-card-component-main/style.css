@@ -1,0 +1,121 @@
+/*IMPORTACIONES*/
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+
+
+body {
+    background-color: hsl(217, 54%, 11%);
+    font-family: "Outfit";
+}
+h1 {
+    font-size: 20px;
+    font-weight: 600;
+    color: hsl(0, 0%, 100%);
+}
+h1:hover{
+    color: hsl(178, 100%, 50%);
+}
+img {
+    border-radius: 10px;
+}
+hr {
+
+    border: 0.1px solid hsl(215, 32%, 27%);
+    border-radius: 5px;
+}
+p{
+    margin: 0;
+}
+
+.layout {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    width: 100vw;
+}
+
+.card {
+    display: flex;
+    flex-direction: column;
+
+    background-color: hsl(216, 50%, 16%);
+    border-radius: 20px;
+    width: 320px;
+    height: 550px;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.card:hover {
+
+    transition: all 0.5s;
+    transform: scale(1.05);
+
+    
+}
+
+
+.text {
+    margin-top: 20px;
+    font-size: 18px;
+    color: hsl(0, 0%, 70%);
+
+}
+
+.text_info {
+    font-weight: 100;
+    margin: 5px;
+}
+
+.info {
+    margin-top: 10px;
+    display: flex;
+    justify-items: center;
+    justify-content: space-between;
+    align-items: center;
+}
+.price{
+    color: hsl(178, 100%, 50%);
+}
+
+.author {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+
+
+}
+
+.author_name {
+    font-size: 18px;
+    color: hsl(0, 0%, 100%);
+}
+.author_name:hover{
+    color: hsl(178, 100%, 50%);
+}
+
+.author img {
+    width: 30px;
+    height: 30px;
+    border: 1px solid white;
+    border-radius: 50px;
+}
+
+
+
+
+
+
+
+.attribution {
+    font-size: 15px;
+    text-align: center;
+    color: hsl(0, 0%, 70%);
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
