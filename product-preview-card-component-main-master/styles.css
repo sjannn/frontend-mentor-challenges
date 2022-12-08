@@ -1,0 +1,95 @@
+/*IMPORTACIONES*/
+@import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,700&family=Montserrat:wght@500&family=Roboto:ital,wght@1,300&display=swap');
+
+/*RESPONSIVE (EN PROGRESO)*/
+
+
+/*ESTILOS*/
+body {
+    background-color: hsl(30, 38%, 92%);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    width: 100vw;
+}
+
+button {
+    background-color: hsl(158, 36%, 37%);
+    border: none;
+    border-radius: 5px;
+    width: 260px;
+    height: 40px;
+    font-family: 'Montserrat';
+    color: hsl(0, 0%, 100%);
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: hsl(158, 36%, 27%);
+}
+
+.card {
+    display: flex;
+    width: 600px;
+    height: 400px;
+    background-color: white;
+    border-radius: 10px;
+}
+.product {
+    border-radius: 10px 0px 0px 10px;
+}
+.info {
+    margin: 40px;
+}
+
+h2 {
+    font-family: "Fraunces";
+    color: hsl(212, 21%, 14%);
+    margin-top: 10px;
+
+}
+p {
+    font-family: 'Montserrat';
+    font-size: 14px;
+    color: hsl(228, 12%, 48%);
+    margin-top: 0px;
+
+
+}
+
+
+.category {
+    letter-spacing: 2px;
+    margin-bottom: 0px;
+    text-transform: uppercase;
+}
+
+.price h2 {
+    color: hsl(158, 36%, 37%);
+    margin-bottom: 0px;
+}
+.price p{
+    text-decoration-line: line-through
+}
+
+
+
+
+
+
+
+
+.attribution {
+    font-family: 'Montserrat';
+    font-size: 11px;
+    text-align: center;
+
+}
+
+.attribution a {
+    color: hsl(228, 45%, 44%);
+}
