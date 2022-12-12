@@ -29,6 +29,7 @@ body {
 
 .card_title {
     text-transform: uppercase;
+    color: hsl(0, 0%, 95%);
     margin-top: 30px;
     margin-bottom: 30px;
     font-family: "Big Shoulders Display";
